@@ -1,4 +1,4 @@
-SageBits – URL Shortener Service
+SageURL – URL Shortener Service
 
 SageBits is a backend URL shortening service that converts long URLs into short, shareable links and redirects users to the original URL using HTTP redirection and persistent storage.
 
