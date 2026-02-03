@@ -16,10 +16,10 @@ Clean REST API design
 
 🛠 Tech Stack
 
-Backend: Go
+Backend: SpringBo
 
 API: REST, HTTP
 
-Database: SQLite
+Database: MySQL
 
-Tools: Git, GitHub
+Tools: VScode,Git, GitHub
