@@ -22,4 +22,4 @@ API: REST, HTTP
 
 Database: MySQL
 
-Tools: VScode,Git, GitHub
+Tools: Git, GitHub
