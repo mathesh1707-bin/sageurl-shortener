@@ -1,25 +1,82 @@
 SageURL – URL Shortener Service
 
-SageBits is a backend URL shortening service that converts long URLs into short, shareable links and redirects users to the original URL using HTTP redirection and persistent storage.
+SageURL is a backend-focused URL shortening service built to practice and demonstrate backend engineering fundamentals, clean architecture, and system design concepts using Spring Boot.
 
-The project is built incrementally to focus on backend fundamentals, clean architecture, and system design concepts.
+The project is being developed incrementally in phases, with each phase adding real-world backend features and scalability considerations.
 
-🚀 Features (Phase 1)
+🚀 Current Features (Phase 1)
 
-Generate unique short URLs for long links
+Generate short, unique URLs for long links
 
-Store URL mappings in a persistent database
+Persist URL mappings using a relational database
 
-Redirect short URLs to the original destination
+Redirect short URLs to the original destination using HTTP redirection
 
-Clean REST API design
+RESTful API design following backend best practices
+
+Basic server-side rendering with Thymeleaf for navigation and pages
 
 🛠 Tech Stack
 
-Backend: SpringBo
+Backend: Spring Boot (Java 21)
 
-API: REST, HTTP
+Web: Spring MVC, Thymeleaf
 
 Database: MySQL
 
-Tools: Git, GitHub
+ORM: Spring Data JPA (Hibernate)
+
+Build Tool: Maven
+
+Version Control: Git & GitHub
+
+📂 Project Structure (High Level)
+SageURL
+├── controller    # Request handling & routing
+├── service       # Business logic
+├── repository    # Database access
+├── model         # Entity definitions
+├── resources
+│   ├── templates # Thymeleaf views
+│   └── static    # CSS and static assets
+
+🧠 Learning Goals
+
+This project is built with a strong focus on:
+
+Backend architecture & layering
+
+Database design and persistence
+
+REST API design
+
+Request lifecycle in Spring Boot
+
+Preparing for scalability and system design discussions
+
+🗺 Roadmap
+
+Phase 2 (Upcoming)
+
+URL expiration support
+
+Click tracking & analytics
+
+Validation & error handling
+
+DTOs and proper response models
+
+Phase 3 (Planned)
+
+Authentication & authorization (Admin/User)
+
+Rate limiting
+
+Caching (Redis)
+
+System design improvements for scale
+
+📌 Status
+
+🟢 Phase 1 complete
+🚧 Actively under development
