@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background: #000c1f;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 60px;
+}
+
+.card {
+    background: #0b1a2d;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
