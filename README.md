@@ -30,15 +30,6 @@ Build Tool: Maven
 
 Version Control: Git & GitHub
 
-📂 Project Structure (High Level)
-SageURL
-├── controller    # Request handling & routing
-├── service       # Business logic
-├── repository    # Database access
-├── model         # Entity definitions
-├── resources
-│   ├── templates # Thymeleaf views
-│   └── static    # CSS and static assets
 
 🧠 Learning Goals
 
